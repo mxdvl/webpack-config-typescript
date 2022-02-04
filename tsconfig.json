@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2015"
+  },
+  "include": ["./src/**/*", "webpack.config.ts"]
+}
